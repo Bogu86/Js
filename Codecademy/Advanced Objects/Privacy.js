@@ -8,6 +8,6 @@ const robot = {
     }
   };
 
-  obot._energyLevel = 'high';
+  robot._energyLevel = 'high';
   robot.recharge();
     
