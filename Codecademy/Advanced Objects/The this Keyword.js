@@ -1,4 +1,4 @@
-// this. notation allows methods to use propertis inside same object
+// this. notation allows methods to use properties inside same object
 
 const robot = {
     model : '1E78V2',
