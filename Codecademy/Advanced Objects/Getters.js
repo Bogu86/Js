@@ -1,4 +1,4 @@
-//Getters are methods return internal properties of an object
+//Getters are methods return internal properties of an object, not really sure why they're so great ;)
 const robot = {
     _model: "1E78V2",
     _energyLevel: 100,
