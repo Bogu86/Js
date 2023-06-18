@@ -19,7 +19,7 @@ h1 {
 }
 
 #article-title {
-  font-family: cursive;
+  font-family: Tahoma;
 }
 
 a[href*='florence'] {
@@ -51,9 +51,28 @@ h5 {
 }
 
 .author-class {
-  color:pink;
+  color: pink;
 }
 
 #author-id {
   color: cornflowerblue;
+}
+
+h2.destination {
+  font-family: Tahoma;
+}
+
+.description h5 {
+  color: blueviolet;
+}
+
+li h4 {
+  color: gold;
+}
+
+h4 {
+  color: dodgerblue;
+}
+h5, li {
+  font-family: monospace;
 }
