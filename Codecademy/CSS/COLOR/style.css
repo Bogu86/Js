@@ -51,23 +51,23 @@ body {
   
   /* Roast types */
   .green {
-    background-color: darkseagreen;
+    background-color: #9EB599;
   }
   
   .light {
-    background-color: sienna;
+    background-color: #683C2C;
   }
   
   .city {
-    background-color: saddlebrown;
+    background-color: #4C352D;
   }
   
   .vienna {
-    background-color: brown;
+    background-color: #352926;
   }
   
   .italian {
-    background-color: black;
+    background-color: #141212;
   }
   
   /* Typography */
@@ -80,6 +80,8 @@ body {
     position: relative;
     text-align: center;
     top: 20%;
+    color: midnightblue;
+    background-color: aqua;
   }
   
   h2 {
@@ -145,4 +147,3 @@ body {
     text-decoration: none;
     letter-spacing: 2px;
   }
-  
