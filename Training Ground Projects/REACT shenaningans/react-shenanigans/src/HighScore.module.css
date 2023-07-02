@@ -1,0 +1,15 @@
+.ScoreBoard {
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: #354f52;
+text-align: center;
+font-size: small;
+
+width: 50%; 
+padding: 20px;
+background-color: #f2f2f2;
+border: 1px solid #ccc;
+/* Z jakiegoś powodu, bez ustawienia margin w taki sposób, wszystko przesuwa się w lewo */
+margin: 0 auto; 
+
+}
+

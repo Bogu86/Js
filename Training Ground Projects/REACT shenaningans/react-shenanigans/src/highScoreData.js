@@ -1,6 +1,6 @@
 export const highScores = [
     {
-      username: 'Big_Sprite19',
+      username: 'Big_Sprite119',
       date: '12/3/2022',
       score: 13
     },
