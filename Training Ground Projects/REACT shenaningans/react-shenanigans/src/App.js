@@ -28,7 +28,7 @@ import HighScore from './HighScore';
 import {highScores} from './highScoreData';
 
 
-
+// W zadaniu chodziło o dopisanie componentu wyświetlającego High Scores z pliku highScoresData.js
 function App(props) {
   return (
     <>
