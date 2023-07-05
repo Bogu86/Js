@@ -16,8 +16,9 @@ function Input() {
           share your passion for all things tech.
         </p>
         <form>
-          <label for="email">Emmmail: </label>
+          <label for="email">Email: </label>
           <input id="email" type="text" onChange={handleUserInput} value ={userInput}/>
+          
         </form>
       </div>
       <div className={styles.inputDisplay}>
