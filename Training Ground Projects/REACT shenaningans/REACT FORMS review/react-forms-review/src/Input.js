@@ -12,9 +12,6 @@ function Input() {
   }
 
 
-
-
-
   return (
     <>
       <div className={styles.emailContainer}>
