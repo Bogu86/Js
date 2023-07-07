@@ -2,14 +2,30 @@ import React, { useState } from "react";
 import styles from "./Input.module.css";
 
 function Input() {
-  const [userInput1, setUserInput] = useState('');
-  function handleUserInput1(e) {
-    setUserInput(e.target.value);
+  const [userName, setUserName] = useState('Imię');
+  function handleUserName(e) {
+    setUserName(e.target.value);
   }
-  const [userInput, setUserInput1] = useState('Pliska wpisz tutej adresik');
-  function handleUserInput(e) {
-    setUserInput1(e.target.value);
+  const [userLastname, setUserLastname] = useState('Nazwisko');
+  function handleUserLastname(e) {
+    setUserLastname(e.target.value);
   }
+
+  const[userAge, setUserAge] = useState('Wiek');
+  function handleUserAge(e) {
+    setUserAge(e.target.value);
+  }
+
+  const[userAdress, setUserAdress] = useState('Adres');
+  function handleUserAdress(e) {
+    setUserAdress(e.target.value);
+  }
+
+  const[userHomeRoomClassNumber, setUserHomeRoomClassNumber] = useState('Numer Klasy');
+  function handleUserHomeRoomClassNumber(e) {
+    setUserHomeRoomClassNumber(e.target.value);
+  }
+
 
 
   return (
@@ -17,26 +33,48 @@ function Input() {
       <div className={styles.emailContainer}>
         <h2>Let's stay in touch.</h2>
         <p>
-          Sign up for our newsletter to stay up-to-date on the latest products,
-          receive exclusive discounts, and connect with other programmers who
-          share your passion for all things tech.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
         <form>
-          <label for="email">Email: </label>
-          <input id="email" type="text" onChange={handleUserInput1} value ={userInput1}/>
+          <label for="name">Imię: </label>
+          <input id="name" type="text" onChange={handleUserName} value ={userName}/>
           <br></br>
-          <label for="email">Email: </label>
-          <input id="email" type="text" onChange={handleUserInput} value ={userInput}/>
+          <label for="name">Nazwisko: </label>
+          <input id="name" type="text" onChange={handleUserLastname} value ={userLastname}/>
+          <br></br>
+          <label for="name">Wiek: </label>
+          <input id="name" type="text" onChange={handleUserAge} value ={userAge}/>
+          <br></br>
+          <label for="name">Adres: </label>
+          <input id="name" type="text" onChange={handleUserAdress} value ={userAdress}/>
+          <br></br>
+          <label for="name">Numer Klasy: </label>
+          <input id="name" type="text" onChange={handleUserHomeRoomClassNumber} value ={userHomeRoomClassNumber}/>
         </form>
       </div>
       <div className={styles.inputDisplay}>
-        <h2>Current User Input: </h2>
-        <h4>{userInput1}</h4>
+        <h2>Podane Imię: </h2>
+        <h4>{userName}</h4>
       </div>
 <br></br>
       <div className={styles.inputDisplay}>
-        <h2>Current User Input: </h2>
-        <h4>{userInput}</h4>
+        <h2>Podane Nazwisko: </h2>
+        <h4>{userLastname}</h4>
+      </div>
+<br></br>
+      <div className={styles.inputDisplay}>
+        <h2>Podany Wiek: </h2>
+        <h4>{userAge}</h4>
+      </div>
+<br></br>
+      <div className={styles.inputDisplay}>
+        <h2>Podany Adres: </h2>
+        <h4>{userAdress}</h4>
+      </div>
+<br></br>
+      <div className={styles.inputDisplay}>
+        <h2>Podany Numer Klasy: </h2>
+        <h4>{userHomeRoomClassNumber}</h4>
       </div>
     </>
   );
