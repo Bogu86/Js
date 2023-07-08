@@ -35,6 +35,7 @@ function Input() {
 
   return (
     <>
+  
       <div className={styles.emailContainer}>
         <h2>Let's stay in touch.</h2>
         <p>
@@ -64,7 +65,9 @@ function Input() {
           <label for="name">Student ID: </label>
           <input id="name" type="text" onChange={handleUserStudentID} value ={userStudentID}/>
         </form>
+      
       </div>
+
       <div className={styles.inputDisplay}>
         <h2>Podane Imię: </h2>
         <h4>{userName}</h4>
@@ -94,6 +97,7 @@ function Input() {
         <h2>Student ID: </h2>
         <h4>{userStudentID}</h4>
       </div>
+  
     </>
   );
 }
