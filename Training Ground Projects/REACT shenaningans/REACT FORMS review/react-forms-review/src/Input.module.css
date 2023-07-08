@@ -2,6 +2,9 @@
 	margin: 0;
 	padding: 0;
   }
+  * {
+	box-sizing: border-box;
+  }
 .emailContainer {
 	background-color: #FFFFFF;
 	box-shadow: 0px 10px 30px rgba(153, 153, 153, 0.3);
@@ -17,7 +20,7 @@
 	width: 500px;
 	max-width: 90%;
 	/* margin: 0 auto; */
-	
+	display: inline-block;
 }
 
 .inputDisplay {
@@ -26,17 +29,17 @@
 	padding: 30px;
 	text-align: center;
 	border-radius: 15px;
-	border: 100px;
-	
+	/* border: 100px; */
+	display: inline-block;
 	/* position: relative; */
 	/* top: 75%;
 	left: 50%; */
 	/* transform: translate(-50%, -50%); */
 	font-family: 'Montserrat', sans-serif;
 	width: 500px;
-	max-width: 90%;
+	/* max-width: 90%; */
 	/* margin:0 auto; */
-	overflow: scroll;
+	/* overflow: scroll; */
   }
 
   input {

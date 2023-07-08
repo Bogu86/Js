@@ -1,5 +1,4 @@
 //Przykładowa strona wygenerowana przez ChatGPT
-
 import React, { useState } from 'react';
 
 const LoginPage = () => {
@@ -24,31 +23,76 @@ const LoginPage = () => {
   };
 
   return (
-    <div>
-      <h2>Strona logowania</h2>
+    <div style={styles.container}>
+      <h2 style={styles.heading}>Strona logowania</h2>
       <form onSubmit={handleFormSubmit}>
-        <div>
-          <label htmlFor="username">Nazwa użytkownika:</label>
+        <div style={styles.formGroup}>
+          <label htmlFor="username" style={styles.label}>
+            Nazwa użytkownika:
+          </label>
           <input
             type="text"
             id="username"
             value={username}
             onChange={handleUsernameChange}
+            style={styles.input}
           />
         </div>
-        <div>
-          <label htmlFor="password">Hasło:</label>
+        <div style={styles.formGroup}>
+          <label htmlFor="password" style={styles.label}>
+            Hasło:
+          </label>
           <input
             type="password"
             id="password"
             value={password}
             onChange={handlePasswordChange}
+            style={styles.input}
           />
         </div>
-        <button type="submit">Zaloguj</button>
+        <button type="submit" style={styles.button}>
+          Zaloguj
+        </button>
       </form>
     </div>
   );
 };
-
+const styles = {
+  container: {
+    width: '300px',
+    margin: '0 auto',
+    padding: '20px',
+    border: '1px solid #ccc',
+    borderRadius: '4px',
+    backgroundColor: '#f9f9f9',
+  },
+  heading: {
+    textAlign: 'center',
+    marginBottom: '20px',
+  },
+  formGroup: {
+    marginBottom: '15px',
+  },
+  label: {
+    display: 'block',
+    marginBottom: '5px',
+  },
+  input: {
+    width: '100%',
+    padding: '10px',
+    fontSize: '16px',
+    border: '1px solid #ccc',
+    borderRadius: '4px',
+  },
+  button: {
+    width: '100%',
+    padding: '10px',
+    fontSize: '16px',
+    border: 'none',
+    borderRadius: '4px',
+    backgroundColor: '#4CAF50',
+    color: '#fff',
+    cursor: 'pointer',
+  },
+};
 export default LoginPage;

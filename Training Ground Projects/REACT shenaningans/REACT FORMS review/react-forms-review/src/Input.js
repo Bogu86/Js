@@ -26,6 +26,11 @@ function Input() {
     setUserHomeRoomClassNumber(e.target.value);
   }
 
+  const[userStudentID, setUserStudentID] = useState('Student ID');
+  function handleUserStudentID(e) {
+    setUserStudentID(e.target.value);
+  }
+
 
 
   return (
@@ -38,18 +43,26 @@ function Input() {
         <form>
           <label for="name">Imię: </label>
           <input id="name" type="text" onChange={handleUserName} value ={userName}/>
-          <br></br>
+          </form>
+          <form>
           <label for="name">Nazwisko: </label>
           <input id="name" type="text" onChange={handleUserLastname} value ={userLastname}/>
-          <br></br>
+          </form>
+          <form>
           <label for="name">Wiek: </label>
           <input id="name" type="text" onChange={handleUserAge} value ={userAge}/>
-          <br></br>
+          </form>
+          <form>
           <label for="name">Adres: </label>
           <input id="name" type="text" onChange={handleUserAdress} value ={userAdress}/>
-          <br></br>
+          </form>
+          <form>
           <label for="name">Numer Klasy: </label>
           <input id="name" type="text" onChange={handleUserHomeRoomClassNumber} value ={userHomeRoomClassNumber}/>
+          </form>
+          <form>
+          <label for="name">Student ID: </label>
+          <input id="name" type="text" onChange={handleUserStudentID} value ={userStudentID}/>
         </form>
       </div>
       <div className={styles.inputDisplay}>
@@ -75,6 +88,11 @@ function Input() {
       <div className={styles.inputDisplay}>
         <h2>Podany Numer Klasy: </h2>
         <h4>{userHomeRoomClassNumber}</h4>
+      </div>
+  <br></br>
+      <div className={styles.inputDisplay}>
+        <h2>Student ID: </h2>
+        <h4>{userStudentID}</h4>
       </div>
     </>
   );
