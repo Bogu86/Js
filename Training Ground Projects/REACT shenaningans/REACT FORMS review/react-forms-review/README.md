@@ -13,4 +13,5 @@ Cel projektu:
 
 Uwagi :
 Komponent Input pisany "z ręki"
-Komponent RadioOptions zbudowany z pomocą ChatuGpT.
+Komponent RadioOptions zbudowany z pomocą Chat'u GPT.
+Komponent Login używany do prób z możliwościami Chat'u GPT. 
