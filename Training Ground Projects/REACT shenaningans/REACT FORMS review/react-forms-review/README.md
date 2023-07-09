@@ -12,6 +12,6 @@ Cel projektu:
     Add a radio-type input allowing the user to track a student’s favorite lunch option. You can determine what lunch will be theoretically served at the school!
 
 Uwagi :
-Komponent Input pisany "z ręki"
+Komponent Input pisany "z ręki"<br>
 Komponent RadioOptions zbudowany z pomocą Chat'u GPT.
 Komponent Login używany do prób z możliwościami Chat'u GPT. 
