@@ -1,3 +1,5 @@
+//komponent stworzony przy pomocy chatGPT
+
 import React, { useState } from 'react';
 import styles from "./Input.module.css";
 
