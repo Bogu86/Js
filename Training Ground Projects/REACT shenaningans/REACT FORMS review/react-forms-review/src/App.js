@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.css';
 import Input from './Input'
-import LoginPage from './Login';
 
+import RadioOptions from './RadioOptions';
 
 function App() {
   return (
+    <>
 <Input />
-
+<RadioOptions />
+</>
   
   );
 }

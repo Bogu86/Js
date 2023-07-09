@@ -68,32 +68,32 @@ function Input() {
       
       </div>
 
-      <div className={styles.inputDisplay}>
+      <div className={styles.emailContainer}>
         <h2>Podane Imię: </h2>
         <h4>{userName}</h4>
       </div>
 <br></br>
-      <div className={styles.inputDisplay}>
+      <div className={styles.emailContainer}>
         <h2>Podane Nazwisko: </h2>
         <h4>{userLastname}</h4>
       </div>
 <br></br>
-      <div className={styles.inputDisplay}>
+      <div className={styles.emailContainer}>
         <h2>Podany Wiek: </h2>
         <h4>{userAge}</h4>
       </div>
 <br></br>
-      <div className={styles.inputDisplay}>
+      <div className={styles.emailContainer}>
         <h2>Podany Adres: </h2>
         <h4>{userAdress}</h4>
       </div>
 <br></br>
-      <div className={styles.inputDisplay}>
+      <div className={styles.emailContainer}>
         <h2>Podany Numer Klasy: </h2>
         <h4>{userHomeRoomClassNumber}</h4>
       </div>
   <br></br>
-      <div className={styles.inputDisplay}>
+      <div className={styles.emailContainer}>
         <h2>Student ID: </h2>
         <h4>{userStudentID}</h4>
       </div>
